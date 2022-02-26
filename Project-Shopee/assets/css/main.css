@@ -681,7 +681,7 @@
     border-radius: 10px;
     border: 2px solid var(--primary-color);
 }
-.header__cart:checked ~ .header__cart-list{
+.header__cart:hover .header__cart-list{
     display: block;
 }
 
