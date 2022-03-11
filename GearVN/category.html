@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh mục sản phẩm</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-beta3-web/css/all.min.css">
+
+</head>
+<body>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./main.js"></script>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav hide-mobile-tablet">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-sign-in"></i>
+                            Quay trở lại giao diện GEARVN cũ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-headset"></i>
+                            Tư vấn mua hàng:1800 6975
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-headset"></i>
+                            CSKH:1800 6173
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-newspaper"></i>
+                            Tin công nghệ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-user-friends"></i>
+                            Tuyển dụng
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="grid wide">
+                <div class="header-main">
+                    <div class="header__logo">
+                        <a href="index.html" class="header__logo-link"><img src="./assets/image/Logo.png" alt="" class="header__logo-img"></a>
+                    </div>
+                    <div class="menu-tablet-mobile hide-PC-m">
+                        <input type="checkbox" id="menu-check">
+                        <label for="menu-check">
+                            <i class="fas fa-bars" id="menu-check-btn"></i>
+                            <i class="fas fa-times-square" id="menu-cancel-btn"></i>
+                        </label>
+
+                        <div class="mobile-menu-modal">
+                            <div class="mobile-sign">
+                                <i class="sign-icon far fa-user-circle"></i>
+                                <div class="sign-registry">
+                                    <a href="#">Đăng nhập</a>
+                                    <a href="#">Đăng ký</a>
+                                </div>
+                            </div>
+                            
+                            <ul class="mobile-menu-list">
+                                <li class="mobile-menu-item">
+                                    <a href="index.html" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-home-alt"></i>
+                                        <span>Trang chủ</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-th-large"></i>
+                                        <span>Danh mục sản phẩm</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-percentage"></i>
+                                        <span>Tổng hợp khuyến mãi</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-phone-volume"></i>
+                                        <span>HOTLINE: </span><span class="phone">18006975</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-phone-volume"></i>
+                                        <span>Hỗ trợ khách hàng: </span><span class="phone">18006173</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-store-alt"></i>
+                                        <span>Hệ thống cửa hàng GEARVN</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-newspaper"></i>
+                                        <span>Tin công nghệ GVN360</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-user-plus"></i>
+                                        <span>Tuyển dụng</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="header__search-wrap">
+                        <div class="header__search">
+                            <input type="text" class="header__search-input" placeholder="Bạn tìm gì...">
+                            <button class="header__search-btn">
+                                <i class="fas fa-search"></i>
+                                <span>Tìm kiếm</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="header__user">
+                        <a href="#" class="header__user-link">
+                            <i class="header__user-icon far fa-user"></i>
+                            <span>Tài khoản <i class="fas fa-caret-down"></i></span>
+                        </a>
+
+                        <div class="header__user-sign">
+                            <a href="#" class="header__user-sign-link">Đăng nhập</a>
+                            <a href="#" class="header__user-sign-link">Tạo tài khoản</a>
+                            <a href="#" class="header__user-sign-link header__user-sign-fb">
+                                <i class="header__user-fb-icon fab fa-facebook-f"></i>
+                                <span>Đăng nhập bằng Facebook</span>
+                            </a>
+                            <a href="#" class="header__user-sign-link header__user-sign-gg">
+                                <i class="header__user-gg-icon fab fa-google"></i>
+                                <span>Đăng nhập bằng Google</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="header__cart">
+                        <a href="#" class="header__cart-link">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span>Giỏ hàng</span>
+                        </a>
+                        <span class="header__cart-quantily">5</span>
+                    </div>
+                    <div class="grid wide">
+                        <div class="header-sub hide-mobile-tablet">
+                            <ul class="header-sub-list">
+                                <li class="header__category">
+                                    <a href="#" class="header__category-heading">
+                                        <i class="fas fa-bars"></i>
+                                        Danh mục sản phẩm
+                                    </a>
+                                </li>
+    
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-wallet"></i>
+                                        <span>Hướng dẫn thanh toán</span>
+                                    </a>
+                                </li>
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-coins"></i>
+                                        <span>Hướng dẫn trả góp</span>
+                                    </a>
+                                </li>
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-shipping-fast"></i>
+                                        <span>Chính sách giao hàng</span>
+                                    </a>
+                                </li>
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-shield"></i>
+                                        <span>Chính sách bảo hành</span>
+                                    </a>
+                                </li>
+    
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-tag"></i>
+                                        <span>Tổng hợp khuyến mãi</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="grid">
+                <div class="mobile-product-category">
+                    <div class="row">
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Laptop Gaming</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Laptop văn phòng</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Apple</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>PC Gaming</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>PC - Máy bộ GEARVN</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Màn hình</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Main - CPU - VGA</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Case - Tản - Nguồn</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>SSD - HDD - RAM</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Bàn phím</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Chuột</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Tai nghe</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Loa</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Máy in, phần mềm</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Ghế & bàn</span>
+                            </div>
+                        </div>
+                        <div class="col l-0 m-3 c-4">
+                            <div class="mobile-category-item">
+                                <i class="mobile-category-icon fas fa-laptop"></i>
+                                <span>Thiết bị mạng</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="newsletter">
+                    <div class="newsletter-inner">
+                        <div class="newsletter-content">
+                            <h2>Đăng ký nhận bản tin GEARVN</h2>
+                            <p>Nhận ngay thông tin về các chương trình khuyến mãi</p>
+                        </div>
+    
+                        <div class="newsletter-form">
+                            <input type="text" class="newsletter-input" placeholder="Email của bạn...">
+                                <button class="newsletter-btn">
+                                    <span>Đăng ký</span>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="row">
+                        <div class="col l-3 c-12">
+                            <div class="widget-collumn">
+                                <h3>VỀ GEARVN</h3>
+                                <a href="#" class="widget-link widget-link-1">Giới thiệu về GEARVN</a>
+                                <a href="#" class="widget-link widget-link-2">Tuyển dụng khối Văn phòng</a>
+                                <a href="#" class="widget-link widget-link-3">Tuyển dụng khối Showroom</a>
+                                <a href="#" class="widget-link widget-link-4">Chính sách bảo mật</a>
+                                <a href="#" class="widget-link widget-link-5">Điều khoản sử dụng</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12">
+                            <div class="widget-collumn">
+                                <h3>HỆ THỐNG TỔNG ĐÀI MIỄN PHÍ:
+                                    (Làm việc từ 8:00 - 20:00)</h3>
+                                <a href="#" class="widget-link widget-link-1">Tổng đài mua hàng: 1800 6975</a>
+                                <a href="#" class="widget-link widget-link-2">Tổng đài hỗ trợ khách hàng: 1800 6173</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12">
+                            <div class="widget-collumn">
+                                <h3>THÔNG TIN</h3>
+                                <a href="#" class="widget-link widget-link-1">Theo dõi đơn hàng</a>
+                                <a href="#" class="widget-link widget-link-2">Mua & giao nhận hàng</a>
+                                <a href="#" class="widget-link widget-link-3">Quy định & hình thức thanh toán</a>
+                                <a href="#" class="widget-link widget-link-4">Bảo hành & bảo trì</a>
+                                <a href="#" class="widget-link widget-link-5">Đổi trả & hoàn tiền</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12">
+                            <div class="widget-collumn">
+                                <div class="widget-collumn-sub">
+                                    <h3>ĐƠN VỊ VẬN CHUYỂN</h3>
+                                    <div class="widget-transport">
+                                        <img src="https://gstatic.gearvn.com/2020/01/giao-hang-nhanh.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/giao-hang-ems.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/giao-hang-chanh-xe.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/giao-hang-gearvn.png" alt="" class="widget-transport-img">
+                                    </div>
+                                </div>
+                                <div class="widget-collumn-sub">
+                                    <h3>CÁCH THỨC THANH TOÁN</h3>
+                                    <div class="widget-transport">
+                                        <img src="https://gstatic.gearvn.com/2020/01/internet.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/jcb.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/Mastercard.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/money-face.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/tra-gop.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/VISA.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/zalopay@3x.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/momooo.png" alt="" class="widget-transport-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="bottom-widget">
+                    <div class="row">
+                        <div class="col l-5 m-4 c-12">
+                            <div class="widget-collumn">
+                                <div class="bottom-widget-logo">
+                                    <a href="#">
+                                        <img src="https://gstatic.gearvn.com/2021/04/Logo-GEARVN_pc-300x70-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="bottom-widget-content">
+                                    <h3 class="hide-pc-low">CÔNG TY TNHH THƯƠNG MẠI GEARVN</h3>
+                                    <p>GearVN là doanh nghiệp chuyên cung cấp thiết bị, 
+                                        giải pháp về máy tính, thiết bị chơi game, 
+                                        thiết bị công nghệ cao cấp hàng đầu Việt Nam.
+                                    </p>
+                                </div>
+                                <div class="bottom-widget-certificate">
+                                    <a href="#">
+                                        <img src="https://gstatic.gearvn.com/2020/01/20150827110756-dathongbao.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="widget-collumn">
+                                <h2>HỆ THỐNG SHOWROOM</h2>
+                                <h2>SHOWROOM HCM (Làm việc từ 8:00 - 20:00)</h2>
+                                <ul class="add-showroom">
+                                    <li>Địa chỉ 1: 78-80-82 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.</li>
+                                    <li>Địa chỉ 2: 905 Kha Vạn Cân, Phường Linh Tây, Thành phố Thủ Đức.</li>
+                                </ul>
+
+                                <h2>SHOWROOM HN (Làm việc từ 9:00 - 19:00)</h2>
+                                <ul class="add-showroom">
+                                    <li>Địa chỉ : 37 Ngõ 121 Thái Hà, Phường Trung Liệt, Quận Đống Đa.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-0">
+                            <div class="widget-collumn">
+                                <div class="widget-collumn-sub">
+                                    <h2>TIN TỨC CÔNG NGHỆ</h2>
+                                    <a href="#">
+                                        <img src="https://gstatic.gearvn.com/2021/07/GVN360-04.png" alt="" class="gearvn360-img">
+                                    </a>
+                                </div>
+                                <div class="widget-collumn-sub">
+                                    <h2>KẾT NỐI VỚI CHÚNG TÔI</h2>
+                                    <div class="widget-social">
+                                        <a href="#">
+                                            <img src="https://gstatic.gearvn.com/2020/01/facebook.png" alt="" class="widget-social-img">
+                                        </a>
+                                        <a href="#">
+                                            <img src="https://gstatic.gearvn.com/2020/01/group.png" alt="" class="widget-social-img">
+                                        </a>
+                                        <a href="#">
+                                            <img src="https://gstatic.gearvn.com/2020/01/youtube.png" alt="" class="widget-social-img">
+                                        </a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <h3>Copyright © 2022 by Le Tu</h3>
+                </div>
+            </div>
+        </footer>
+
+        
+    </div>
+</body>
+</html>

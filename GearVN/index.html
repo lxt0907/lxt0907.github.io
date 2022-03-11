@@ -1,0 +1,2198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GEARVN.BETA</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-beta3-web/css/all.min.css">
+
+</head>
+<body>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="./main.js"></script>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav hide-mobile-tablet">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-sign-in"></i>
+                            Quay trở lại giao diện GEARVN cũ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-headset"></i>
+                            Tư vấn mua hàng:1800 6975
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-headset"></i>
+                            CSKH:1800 6173
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-newspaper"></i>
+                            Tin công nghệ
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#" class="nav__item-link">
+                            <i class="nav__item-icon fas fa-user-friends"></i>
+                            Tuyển dụng
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="grid wide">
+                <div class="header-main">
+                    <div class="header__logo">
+                        <a href="#" class="header__logo-link"><img src="./assets/image/Logo.png" alt="" class="header__logo-img"></a>
+                    </div>
+                    <div class="menu-tablet-mobile hide-PC-m">
+                        <input type="checkbox" id="menu-check">
+                        <label for="menu-check">
+                            <i class="fas fa-bars" id="menu-check-btn"></i>
+                            <i class="fas fa-times-square" id="menu-cancel-btn"></i>
+                        </label>
+
+                        <div class="mobile-menu-modal">
+                            <div class="mobile-sign">
+                                <i class="sign-icon far fa-user-circle"></i>
+                                <div class="sign-registry">
+                                    <a href="#">Đăng nhập</a>
+                                    <a href="#">Đăng ký</a>
+                                </div>
+                            </div>
+                            
+                            <ul class="mobile-menu-list">
+                                <li class="mobile-menu-item">
+                                    <a href="index.html" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-home-alt"></i>
+                                        <span>Trang chủ</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="./category.html" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-th-large"></i>
+                                        <span>Danh mục sản phẩm</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-percentage"></i>
+                                        <span>Tổng hợp khuyến mãi</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-phone-volume"></i>
+                                        <span>HOTLINE: </span><span class="phone">18006975</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-phone-volume"></i>
+                                        <span>Hỗ trợ khách hàng: </span><span class="phone">18006173</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-store-alt"></i>
+                                        <span>Hệ thống cửa hàng GEARVN</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-newspaper"></i>
+                                        <span>Tin công nghệ GVN360</span>
+                                    </a>
+                                </li>
+                                <li class="mobile-menu-item">
+                                    <a href="#" class="mobile-menu-link">
+                                        <i class="mobile-menu-icon fas fa-user-plus"></i>
+                                        <span>Tuyển dụng</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="header__search-wrap">
+                        <div class="header__search">
+                            <input type="text" class="header__search-input" placeholder="Bạn tìm gì...">
+                            <button class="header__search-btn">
+                                <i class="fas fa-search"></i>
+                                <span>Tìm kiếm</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="header__user">
+                        <a href="#" class="header__user-link">
+                            <i class="header__user-icon far fa-user"></i>
+                            <span>Tài khoản <i class="fas fa-caret-down"></i></span>
+                        </a>
+
+                        <div class="header__user-sign">
+                            <a href="#" class="header__user-sign-link">Đăng nhập</a>
+                            <a href="#" class="header__user-sign-link">Tạo tài khoản</a>
+                            <a href="#" class="header__user-sign-link header__user-sign-fb">
+                                <i class="header__user-fb-icon fab fa-facebook-f"></i>
+                                <span>Đăng nhập bằng Facebook</span>
+                            </a>
+                            <a href="#" class="header__user-sign-link header__user-sign-gg">
+                                <i class="header__user-gg-icon fab fa-google"></i>
+                                <span>Đăng nhập bằng Google</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="header__cart">
+                        <a href="#" class="header__cart-link">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span>Giỏ hàng</span>
+                        </a>
+                        <span class="header__cart-quantily">5</span>
+                    </div>
+                    <div class="grid wide">
+                        <div class="header-sub hide-mobile-tablet">
+                            <ul class="header-sub-list">
+                                <li class="header__category">
+                                    <a href="#" class="header__category-heading">
+                                        <i class="fas fa-bars"></i>
+                                        Danh mục sản phẩm
+                                    </a>
+                                </li>
+    
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-wallet"></i>
+                                        <span>Hướng dẫn thanh toán</span>
+                                    </a>
+                                </li>
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-coins"></i>
+                                        <span>Hướng dẫn trả góp</span>
+                                    </a>
+                                </li>
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-shipping-fast"></i>
+                                        <span>Chính sách giao hàng</span>
+                                    </a>
+                                </li>
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-shield"></i>
+                                        <span>Chính sách bảo hành</span>
+                                    </a>
+                                </li>
+    
+                                <li class="header__tutorial-pay">
+                                    <a href="#" class="header__tutorial-pay-link">
+                                        <i class="header__tutorial-icon fas fa-tag"></i>
+                                        <span>Tổng hợp khuyến mãi</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="content">
+            <div class="grid wide">
+                <div class="category-adv">
+                    <div class="product__category hide-mobile-tablet">
+                        <ul class="category-list">
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Laptop Gaming</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+                                
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Laptop văn phòng</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopvanphong hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Swift Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">Modern Series</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">Vivobook Series</a>
+                                                        <a href="#" class="modal-product__type-content">Zenbook Serise</a>
+                                                        <a href="#" class="modal-product__type-content">ExpertBook Series</a>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop HP</a>
+                                                        <a href="#" class="modal-product__type-content">HP 15s/14s Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop LG</a>
+                                                        <a href="#" class="modal-product__type-content">LG Gram Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Dell</a>
+                                                        <a href="#" class="modal-product__type-content">Vostro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Inpiron Series</a>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Dưới 12 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 12 - 18 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/09/Laptop-Van-phong-BETA.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Apple</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Macbook</a>
+                                                        <a href="#" class="modal-product__type-content">Mocbook Air</a>
+                                                        <a href="#" class="modal-product__type-content">Macbook Pro 13</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">iMac</a>
+                                                        <a href="#" class="modal-product__type-content">iMac 24</a>                            
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Mac</a>
+                                                        <a href="#" class="modal-product__type-content">Mac Mini</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-3">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện</a>
+                                                        <a href="#" class="modal-product__type-content">Âm thanh</a>
+                                                        <a href="#" class="modal-product__type-content">Bàn phím & chuột</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/09/Apple-Beta.png);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>PC Gaming</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Cấu hình siêu cao cấp</a>
+                                                        <a href="#" class="modal-product__type-content">Avengers Z - AMD R7 (5th) - RX6700XT</a>
+                                                        <a href="#" class="modal-product__type-content">Valoran Z - Intel i7 (10th) - 3070</a>
+                                                        <a href="#" class="modal-product__type-content">GVN Aorus X</a>
+                                                        <a href="#" class="modal-product__type-content">GVN Dragon X</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Cấu hình cao cấp</a>
+                                                        <a href="#" class="modal-product__type-content">Darius S - Intel i5 (10th) - RX570 8G</a>                                
+                                                        <a href="#" class="modal-product__type-content">Ghost S - Intel i5 (10th) - 2060</a>                                
+                                                        <a href="#" class="modal-product__type-content">Phantom S - Intel i5 (11th) - 3060</a>                                
+                                                        <a href="#" class="modal-product__type-content">Volibear S - Intel i7 (9th) - 2060</a>                                
+                                                        <a href="#" class="modal-product__type-content">Garen S - Intel i7 (10th) - 3060</a>                                
+                                                        <a href="#" class="modal-product__type-content">Venus S - AMD R5 (3th) - RX570 8G</a>                                
+                                                        <a href="#" class="modal-product__type-content">Pyke S - AMD R5 (5th) - RX570 8G</a>
+                                                        <a href="#" class="modal-product__type-content">Lina S - AMD R5 (5th) - 2060</a>
+                                                        <a href="#" class="modal-product__type-content">Hera S - AMD R7 (3th) - RX670 XT</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Cấu hình tầm trung</a>
+                                                        <a href="#" class="modal-product__type-content">Ventus M -  Intel i3 - GT 1030</a>
+                                                        <a href="#" class="modal-product__type-content">Mistic M -  Intel i3 - 1050Ti</a>
+                                                        <a href="#" class="modal-product__type-content">Viper M -  Intel i3 - 1660</a>
+                                                        <a href="#" class="modal-product__type-content">Minion M -  Intel i3 - 1660S</a>
+                                                        <a href="#" class="modal-product__type-content">Yuumi M -  Intel i5 - 1660</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Cấu hình theo giá</a>
+                                                        <a href="#" class="modal-product__type-content">PC Gaming từ 8 triệu - 20 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">PC Gaming từ 20 triệu - 50 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">PC Gaming trên 50 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/09/bb3535eafa160c485507.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>PC - Máy bộ GEARVN</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Màn hình</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Main - CPU - VGA</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Case - Tản - Nguồn</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>SSD - HDD - RAM</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Bàn phím</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Chuột</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Tai nghe - Loa</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Máy in, phần mềm</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Ghế & bàn</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="category-item">
+                                <a href="#" class="category-link">
+                                    <span><i class="category-icon fas fa-laptop"></i>Thiết bị mạng</span>
+                                    <i class="category-icon2 fas fa-angle-right"></i>
+                                </a>
+
+                                <!-- product modal -->
+                                <div class="modal-product modal-laptopgaming hide-pc-low hide-mobile-tablet">
+                                    <div class="col l-9 m-0 c-0">
+                                        <div class="modal-product__type">
+                                            <div class="row">
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Acer</a>
+                                                        <a href="#" class="modal-product__type-content">Aspire Series</a>
+                                                        <a href="#" class="modal-product__type-content">Nitro Series</a>
+                                                        <a href="#" class="modal-product__type-content">Predator Helios</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Asus</a>
+                                                        <a href="#" class="modal-product__type-content">TUF Series</a>
+                                                        <a href="#" class="modal-product__type-content">ROG Serise</a>
+                                                        <a href="#" class="modal-product__type-content">Zephyrus Series</a>                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop MSI</a>
+                                                        <a href="#" class="modal-product__type-content">GF Series</a>
+                                                        <a href="#" class="modal-product__type-content">GL Series</a>
+                                                        <a href="#" class="modal-product__type-content">GS Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop Lenovo</a>
+                                                        <a href="#" class="modal-product__type-content">Ideapad Series</a>
+                                                        <a href="#" class="modal-product__type-content">Legion Series</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Các hãng khác</a>
+                                                        <a href="#" class="modal-product__type-content">Dell</a>
+                                                        <a href="#" class="modal-product__type-content">HP</a>
+                                                        <a href="#" class="modal-product__type-content">Gigabyte</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Phụ kiện Laptop</a>
+                                                        <a href="#" class="modal-product__type-content">RAM</a>
+                                                        <a href="#" class="modal-product__type-content">Túi chống shock</a>
+                                                        <a href="#" class="modal-product__type-content">Đế tản nhiệt</a>
+                                                    </div>
+                                                </div>
+                                                <div class="col l-4">
+                                                    <div class="modal-product__type-item">
+                                                        <a href="#" class="modal-product__type-heading">Laptop theo giá tiền</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 18 - 25 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Từ 25 - 40 triệu</a>
+                                                        <a href="#" class="modal-product__type-content">Trên 40 triệu</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="col l-3">
+                                        <a href="#">
+                                            <div class="modal-product__banner" 
+                                            style="background-image: url(https://gstatic.gearvn.com/2021/11/Menu-Laptop-Gaming.jpg);">
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slider-advertise">
+                        <div class="slider">
+                            <a href="#" class="slider-link">
+                                <img src="https://gstatic.gearvn.com/2021/10/729_x_356.jpg" class="slider-img">
+                            </a>
+                            <a href="#" class="adv-below-link">
+                                <img src="https://gstatic.gearvn.com/2021/11/Artboard-4-copy-4-8.png" class="adv-below-img">
+                            </a>
+                            <a href="#" class="adv-below-link">
+                                <img src="https://gstatic.gearvn.com/2021/11/Artboard-7-8.png" class="adv-below-img">
+                            </a>
+                        </div>
+                        <div class="advertise-right">
+                            <a href="#" class="adv-right-link">
+                                <img src="https://gstatic.gearvn.com/2021/11/Artboard-8-8-1.png" class="adv-right-img">
+                            </a>
+                            <a href="#" class="adv-right-link">
+                                <img src="https://gstatic.gearvn.com/2021/11/Artboard-4-copy-2-8.png" class="adv-right-img">
+                            </a>
+                            <a href="#" class="adv-right-link">
+                                <img src="https://gstatic.gearvn.com/2021/11/Artboard-8-copy-8.png" class="adv-right-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand">
+                    <div class="brand-heading">
+                        <h2 class="brand-text">Thương hiệu sản phẩm</h2>
+                        <a href="#" class="brand-show-all">Xem tất cả</a>
+                    </div>
+                    <div class="brand-category">
+                        <ul class="brand-list">
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/Intel-1.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/09/logo_281x151-04.jpg" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/amd.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/asus.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/gigabyte.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/msi.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/acer.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/logitech.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/hYY5dAy9-1-1.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/lg.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/samsung.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/Kington.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/Corsair-1.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/razer.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/Hyper.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                            <li class="brand-item">
+                                <a href="#" class="brand-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/LenovoLogo-282x152-02.png" alt="" class="brand-img">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="hightlight-laptop">
+                    <div class="hightlight-heading">
+                        <img src="./assets/image/Artboard-1.png" alt="" class="hightlight-heading-img">
+                        <div class="hightlight-laptop-option hide-mobile-tablet">
+                            <a href="#" class="showall__laptop">Laptop</a>
+                            <a href="#" class="showall__gaming">Laptop Gaming</a>
+                            <a href="#" class="showall__office-lap">Laptop văn phòng</a>
+                        </div>
+                    </div>
+                    <div class="hightlight-laptop-product">
+                        <div class="laptop-L">
+                            <a href="#" class="laptop-L-link">
+                                <img src="./assets/image/Laptop-L.png" alt="" class="laptop-L-img">
+                                <h4 class="laptop-L-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-L-price">21.990.000₫</span>
+                            </a>
+                        </div>
+                        <div class="laptop-S">
+                            <a href="#" class="laptop-S-link">
+                                <img src="./assets/image/laptop-S-1.png" alt="" class="laptop-S-img">
+                                <h4 class="laptop-S-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-S-price">21.990.000₫</span>
+                            </a>
+                        </div>
+                        <div class="laptop-S">
+                            <a href="#" class="laptop-S-link">
+                                <img src="./assets/image/laptop-S-1.png" alt="" class="laptop-S-img">
+                                <h4 class="laptop-S-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-S-price">21.990.000₫</span>
+                            </a>
+                        </div>
+                        <div class="laptop-S">
+                            <a href="#" class="laptop-S-link">
+                                <img src="./assets/image/laptop-S-1.png" alt="" class="laptop-S-img">
+                                <h4 class="laptop-S-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-S-price">21.990.000₫</span>
+                            </a>
+                        </div>
+                        <div class="laptop-S">
+                            <a href="#" class="laptop-S-link">
+                                <img src="./assets/image/laptop-S-1.png" alt="" class="laptop-S-img">
+                                <h4 class="laptop-S-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-S-price">21.990.000₫</span>
+                            </a>
+                        </div>
+                        <div class="laptop-S">
+                            <a href="#" class="laptop-S-link">
+                                <img src="./assets/image/laptop-S-1.png" alt="" class="laptop-S-img">
+                                <h4 class="laptop-S-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-S-price">21.990.000₫</span>
+                            </a>
+                        </div>
+                        <div class="laptop-S">
+                            <a href="#" class="laptop-S-link">
+                                <img src="./assets/image/laptop-S-1.png" alt="" class="laptop-S-img">
+                                <h4 class="laptop-S-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-S-price">21.990.000₫</span>
+                            </a>
+                        </div>
+                        <div class="laptop-S">
+                            <a href="#" class="laptop-S-link">
+                                <img src="./assets/image/laptop-S-1.png" alt="" class="laptop-S-img">
+                                <h4 class="laptop-S-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-S-price">21.990.000₫</span>
+                            </a>
+                        </div>
+                        <div class="laptop-S">
+                            <a href="#" class="laptop-S-link">
+                                <img src="./assets/image/laptop-S-1.png" alt="" class="laptop-S-img">
+                                <h4 class="laptop-S-name">Laptop Gaming MSI Katana GF66 11UC 676VN</h4>
+                                <span class="laptop-S-price">21.990.000₫</span>
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="showall hide-PC-m hide-pc-low">
+                        <a href="#" class="showall-link">
+                            Xem tất cả Laptop
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hot PC slider -->
+                <div class="PC-hot">
+                    <div class="PC-hot-heading">
+                        <h2 class="PC-hot-text">Top PC bán chạy</h2>
+                        <div class="PC-option hide-mobile-tablet">
+                            <a href="#" class="PC-intel">PC Intel NUC</a>
+                            <a href="#" class="PC-gaming">PC Gaming cao cấp</a>
+                            <a href="#" class="PC-imac">iMac</a>
+                        </div>
+                    </div>
+
+                    <!-- PC hot on mobile -->
+                    <div class="mobile__PC-hot-category hide-pc-low hide-PC-m">
+                        <ul class="mobile__PC-hot-list">
+                            <li class="mobile__PC-hot-item">
+                                <a href="#" class="mobile__PC-hot-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/De6ymhgm-GVN-Ivy-10-M-300x300.jpg" class="mobile__PC-hot-img" alt="">
+                                    <span class="mobile__PC-hot-name">PC GVN IVY M</span>
+                                    <span class="mobile__PC-hot-price">21.990.000₫</span>
+                                </a>
+                            </li>
+                            <li class="mobile__PC-hot-item">
+                                <a href="#" class="mobile__PC-hot-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/De6ymhgm-GVN-Ivy-10-M-300x300.jpg" class="mobile__PC-hot-img" alt="">
+                                    <span class="mobile__PC-hot-name">PC GVN IVY M</span>
+                                    <span class="mobile__PC-hot-price">21.990.000₫</span>
+                                </a>
+                            </li><li class="mobile__PC-hot-item">
+                                <a href="#" class="mobile__PC-hot-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/De6ymhgm-GVN-Ivy-10-M-300x300.jpg" class="mobile__PC-hot-img" alt="">
+                                    <span class="mobile__PC-hot-name">PC GVN IVY M</span>
+                                    <span class="mobile__PC-hot-price">21.990.000₫</span>
+                                </a>
+                            </li><li class="mobile__PC-hot-item">
+                                <a href="#" class="mobile__PC-hot-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/De6ymhgm-GVN-Ivy-10-M-300x300.jpg" class="mobile__PC-hot-img" alt="">
+                                    <span class="mobile__PC-hot-name">PC GVN IVY M</span>
+                                    <span class="mobile__PC-hot-price">21.990.000₫</span>
+                                </a>
+                            </li><li class="mobile__PC-hot-item">
+                                <a href="#" class="mobile__PC-hot-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/De6ymhgm-GVN-Ivy-10-M-300x300.jpg" class="mobile__PC-hot-img" alt="">
+                                    <span class="mobile__PC-hot-name">PC GVN IVY M</span>
+                                    <span class="mobile__PC-hot-price">21.990.000₫</span>
+                                </a>
+                            </li><li class="mobile__PC-hot-item">
+                                <a href="#" class="mobile__PC-hot-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/De6ymhgm-GVN-Ivy-10-M-300x300.jpg" class="mobile__PC-hot-img" alt="">
+                                    <span class="mobile__PC-hot-name">PC GVN IVY M</span>
+                                    <span class="mobile__PC-hot-price">21.990.000₫</span>
+                                </a>
+                            </li><li class="mobile__PC-hot-item">
+                                <a href="#" class="mobile__PC-hot-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/De6ymhgm-GVN-Ivy-10-M-300x300.jpg" class="mobile__PC-hot-img" alt="">
+                                    <span class="mobile__PC-hot-name">PC GVN IVY M</span>
+                                    <span class="mobile__PC-hot-price">21.990.000₫</span>
+                                </a>
+                            </li><li class="mobile__PC-hot-item">
+                                <a href="#" class="mobile__PC-hot-link">
+                                    <img src="https://gstatic.gearvn.com/2021/10/De6ymhgm-GVN-Ivy-10-M-300x300.jpg" class="mobile__PC-hot-img" alt="">
+                                    <span class="mobile__PC-hot-name">PC GVN IVY M</span>
+                                    <span class="mobile__PC-hot-price">21.990.000₫</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <!-- Slider PC hot on PC-->
+                    <div class="PC-hot-category hide-mobile-tablet">
+                        <a href="#" class="PC-hot-item">
+                            <div class="PC-hot-img">
+                                <img src="https://gstatic.gearvn.com/2021/09/kESQ7maG-GEARVN-PC-gaming-AXE-300x300.jpeg" alt="">
+                            </div>
+                            <h3 class="PC-hot-name">PC GVN IVY</h3>
+                            <span class="PC-hot-price">21.990.000₫</span>
+                        </a>
+                        <a href="#" class="PC-hot-item">
+                            <div class="PC-hot-img">
+                                <img src="https://gstatic.gearvn.com/2021/09/kESQ7maG-GEARVN-PC-gaming-AXE-300x300.jpeg" alt="">
+                            </div>
+                            <h3 class="PC-hot-name">PC GVN IVY</h3>
+                            <span class="PC-hot-price">21.990.000₫</span>
+                        </a>
+                        <a href="#" class="PC-hot-item">
+                            <div class="PC-hot-img">
+                                <img src="https://gstatic.gearvn.com/2021/09/kESQ7maG-GEARVN-PC-gaming-AXE-300x300.jpeg" alt="">
+                            </div>
+                            <h3 class="PC-hot-name">PC GVN IVY</h3>
+                            <span class="PC-hot-price">21.990.000₫</span>
+                        </a>
+                        <a href="#" class="PC-hot-item">
+                            <div class="PC-hot-img">
+                                <img src="https://gstatic.gearvn.com/2021/09/kESQ7maG-GEARVN-PC-gaming-AXE-300x300.jpeg" alt="">
+                            </div>
+                            <h3 class="PC-hot-name">PC GVN IVY</h3>
+                            <span class="PC-hot-price">21.990.000₫</span>
+                        </a>
+                        <a href="#" class="PC-hot-item">
+                            <div class="PC-hot-img">
+                                <img src="https://gstatic.gearvn.com/2021/09/kESQ7maG-GEARVN-PC-gaming-AXE-300x300.jpeg" alt="">
+                            </div>
+                            <h3 class="PC-hot-name">PC GVN IVY</h3>
+                            <span class="PC-hot-price">21.990.000₫</span>
+                        </a>
+                        <a href="#" class="PC-hot-item">
+                            <div class="PC-hot-img">
+                                <img src="https://gstatic.gearvn.com/2021/09/kESQ7maG-GEARVN-PC-gaming-AXE-300x300.jpeg" alt="">
+                            </div>
+                            <h3 class="PC-hot-name">PC GVN IVY</h3>
+                            <span class="PC-hot-price">21.990.000₫</span>
+                        </a>
+                        <a href="#" class="PC-hot-item">
+                            <div class="PC-hot-img">
+                                <img src="https://gstatic.gearvn.com/2021/09/kESQ7maG-GEARVN-PC-gaming-AXE-300x300.jpeg" alt="">
+                            </div>
+                            <h3 class="PC-hot-name">PC GVN IVY</h3>
+                            <span class="PC-hot-price">21.990.000₫</span>
+                        </a>
+                        <a href="#" class="PC-hot-item">
+                            <div class="PC-hot-img">
+                                <img src="https://gstatic.gearvn.com/2021/09/kESQ7maG-GEARVN-PC-gaming-AXE-300x300.jpeg" alt="">
+                            </div>
+                            <h3 class="PC-hot-name">PC GVN IVY</h3>
+                            <span class="PC-hot-price">21.990.000₫</span>
+                        </a>
+                    </div>
+
+                    <div class="showall hide-PC-m hide-pc-low">
+                        <a href="#" class="showall-link">
+                            Xem tất cả PC
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hot Macbook -->
+                <div class="products">
+                    <div class="products-heading">
+                        <h2 class="products-text">Macbook - iMac nổi bật</h2>
+                        <div class="products-option hide-mobile-tablet">
+                            <a href="#" class="products-option-1">Apple</a>
+                            <a href="#" class="products-option-2">iMac 24</a>
+                            <a href="#" class="products-option-3">Mac Mini</a>
+                        </div>
+                    </div>
+
+                    <!-- PC hot on mobile -->
+                    <div class="products-category">
+                        <ul class="products-list">
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/dUx1jn5W-GEARVN-imac-24-2021-m1-8gpu-8gb-512gb-mgpn3sa-a-pink-300x300.jpeg" class="products-img" alt="">
+                                    <span class="products-name">iMac 24 2021 M1 8GPU 8GB 512GB MGPN3SA/A – Pink</span>
+                                    <span class="products-price">43.490.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://beta.gearvn.com/wp-content/uploads/2021/03/GEARVN-macbook-air-13-2020-m1-7gpu-8gb-256gb-mgn93sa-a-silver-300x300.png" class="products-img" alt="">
+                                    <span class="products-name">Macbook Air 13 2020 M1 7GPU 8GB 256GB MGN93SA/A – Silver</span>
+                                    <span class="products-price">24.290.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/2Uo2rX3g-macbook-pro-13-2020-mydc2sa-a-touchbar-m1-8gb-512gb-gpu-8-core-1-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Macbook Pro 13 2020  M1 8GB 512GB MYDC2SA/A – Silver</span>
+                                    <span class="products-price">36.490.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/Vwj5iAdK-macbook-pro-13-2020-myd82sa-a-touchbar-01-300x300.jpeg" class="products-img" alt="">
+                                    <span class="products-name">Macbook Pro 13 2020 M1 8GB 256GB MYD82SA/A – Grey</span>
+                                    <span class="products-price">31.490.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/09/wMNRCwzl-gearvn-macbook-air-2020-m1-8gb-256gb-7gpu-mgnd3sa-a-gold-1-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Macbook Air 2020 M1 8GB 256GB 7GPU MGND3SA/A – Gold</span>
+                                    <span class="products-price">24.290.000₫</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="showall hide-PC-m hide-pc-low">
+                        <a href="#" class="showall-link">
+                            Xem tất cả Macbook
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hot screen -->
+                <div class="products">
+                    <div class="products-heading">
+                        <h2 class="products-text">Màn hình khuyến mãi hot</h2>
+                        <div class="products-option hide-mobile-tablet">
+                            <a href="#" class="products-option-1">Màn hình Acer</a>
+                            <a href="#" class="products-option-2">Màn hình Asus</a>
+                            <a href="#" class="products-option-3">Màn hình cong</a>
+                        </div>
+                    </div>
+                    <div class="products-category">
+                        <ul class="products-list">
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/09/3CybTxkg-gearvn-man-hinh-dell-ultrasharp-u2422h-24-ips-1-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình Dell UltraSharp U2422H 24″ IPS</span>
+                                    <span class="products-price">6.950.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/09/6zv9vft5-gearvn-lg27gp850b-10-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình LG 27GP850-B UltraGear 27″ Nano</span>
+                                    <span class="products-price">11.490.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/vtC3AF5F-GEARVN-man-hinh-lg-24mp60g-b-24-ips-75hz-freesync-chuyen-game-300x300.jpeg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình LG 24MP60G-B 24″ IPS 75Hz Freesynce</span>
+                                    <span class="products-price">4.290.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/o2inX93G-gearvn-man-hinh-acer-ed272-a-27-ips-75hz-1-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình ACER ED272 A 27″ IPS 75Hz</span>
+                                    <span class="products-price">4.790.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/DR8o9k3C-9_77bc16cf783440fc8721cf6339fb150d_large-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình Viewsonic VA2418-SH-2 24″ IPS 75Hz</span>
+                                    <span class="products-price">3.800.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/ZCtuXGwA-aoc_24g2_gearvn_26fe6139df4049a3b47cbcf4f0c89aa6-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình AOC 24G2 24″ IPS 144Hz Gsync compatible</span>
+                                    <span class="products-price">4.750.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item hide-pc-low hide-mobile-tablet">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/OrxwFw3q-asus_pa248qv_gearvn_7b991c33371743249dc09f2d4b8ff59e-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình ASUS ProArt PA248QV 24″ IPS 75Hz 16:10 chuyên đồ họa</span>
+                                    <span class="products-price">5.890.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item hide-pc-low hide-mobile-tablet">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/awco17Ri-gearvn-man-hinh-acer-ek241y-24-ips-75hz-1-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình Acer EK241Y 24″ IPS 75Hz</span>
+                                    <span class="products-price">3.790.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item hide-pc-low hide-mobile-tablet">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/ddwsNUq6-lg27mk600m-b_gearvn_d8b0fa7b62ee427eba43a7578053870f-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình LCD LG 27″ 27MK600M-B 75Hz</span>
+                                    <span class="products-price">5.150.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item hide-pc-low hide-mobile-tablet">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/ynosCzUz-gearvn-lg-27gl650f-b-ultragear-27-ips-144hz-freesync-1-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình LCD LG 27GL650F-B 27″ IPS 144Hz Freesync</span>
+                                    <span class="products-price">6.790.000₫</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="showall hide-PC-m hide-pc-low">
+                        <a href="#" class="showall-link">
+                            Xem tất cả màn hình
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mix products -->
+                <div class="products">
+                    <div class="products-heading">
+                        <h2 class="products-text">Sản phẩm dành cho bạn</h2>
+                        <div class="products-option hide-mobile-tablet">
+                            <a href="#" class="products-option-1">Chuột</a>
+                            <a href="#" class="products-option-2">Bàn phím</a>
+                        </div>
+                    </div>
+                    <div class="products-category">
+                        <ul class="products-list">
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://beta.gearvn.com/wp-content/uploads/2020/09/logitech-g102-lightsync-rgb-black-1_bf4f5774229c4a0f81b8e8a2feebe4d8-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Chuột Logitech G102 LightSync Black</span>
+                                    <span class="products-price">400.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/raAlXjwZ-logitech-g102-lightsync-rgb-white-1_eb113ff7e83b4289812fb9bff7034b4d-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Chuột Logitech G102 LightSync White</span>
+                                    <span class="products-price">400.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/JKWa6OVP-gearvn-laptop-acer-nitro5-eagle-7-300x300.png" class="products-img" alt="">
+                                    <span class="products-name">Laptop Gaming Acer Nitro 5 Eagle AN515 57 51G6</span>
+                                    <span class="products-price">24.990.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/ZCtuXGwA-aoc_24g2_gearvn_26fe6139df4049a3b47cbcf4f0c89aa6-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Màn hình AOC 24G2 24″ IPS 144Hz Gsync compatible</span>
+                                    <span class="products-price">4.750.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/t07bMV6I-GEARVN-laptop-gigabyte-aero-15-oled-xd-73s1624gh-300x300.png" class="products-img" alt="">
+                                    <span class="products-name">Laptop Gigabyte AERO 15 OLED YD 73S1624GH</span>
+                                    <span class="products-price">76.990.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/zfMgqMuZ-gearvn.com-products-laptop-gaming-acer-nitro-5-eagle-an515-57-74nu-7-Copy-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Laptop Gaming Acer Nitro 5 Eagle AN515 57 74NU</span>
+                                    <span class="products-price">28.390.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item hide-pc-low hide-mobile-tablet">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/Td9gxoZd-gearvn-ban-phim-co-gaming-dareu-ek87-black-multi-led-1-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Bàn phím Gaming DareU EK87- Black Multi-LED Brown Switch</span>
+                                    <span class="products-price">499.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item hide-pc-low hide-mobile-tablet">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/08/rTzxD4JI-gearvn-tai-nghe-dareu-eh416-rgb-1-1-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">Tai nghe DareU EH416 RGB</span>
+                                    <span class="products-price">380.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item hide-pc-low hide-mobile-tablet">
+                                <a href="#" class="products-link">
+                                    <img src="https://gstatic.gearvn.com/2021/09/dWVYjsLp-gearvn-gvn-ventus-m-300x300.jpg" class="products-img" alt="">
+                                    <span class="products-name">PC GVN VENTUS M</span>
+                                    <span class="products-price">8.990.000₫</span>
+                                </a>
+                            </li>
+                            <li class="products-item hide-pc-low hide-mobile-tablet">
+                                <a href="#" class="products-link">
+                                    <img src="https://beta.gearvn.com/wp-content/uploads/2021/05/GEARVN-ban-phim-co-e-dra-ek384-300x300.png" class="products-img" alt="">
+                                    <span class="products-name">Bàn phím cơ E-DRA EK384 Red Switch</span>
+                                    <span class="products-price">790.000₫</span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="showall hide-PC-m hide-pc-low">
+                        <a href="#" class="showall-link">
+                            Xem tất cả Macbook
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="grid wide">
+                <div class="newsletter">
+                    <div class="newsletter-inner">
+                        <div class="newsletter-content">
+                            <h2>Đăng ký nhận bản tin GEARVN</h2>
+                            <p>Nhận ngay thông tin về các chương trình khuyến mãi</p>
+                        </div>
+    
+                        <div class="newsletter-form">
+                            <input type="text" class="newsletter-input" placeholder="Email của bạn...">
+                                <button class="newsletter-btn">
+                                    <span>Đăng ký</span>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="row">
+                        <div class="col l-3 c-12">
+                            <div class="widget-collumn">
+                                <h3>VỀ GEARVN</h3>
+                                <a href="#" class="widget-link widget-link-1">Giới thiệu về GEARVN</a>
+                                <a href="#" class="widget-link widget-link-2">Tuyển dụng khối Văn phòng</a>
+                                <a href="#" class="widget-link widget-link-3">Tuyển dụng khối Showroom</a>
+                                <a href="#" class="widget-link widget-link-4">Chính sách bảo mật</a>
+                                <a href="#" class="widget-link widget-link-5">Điều khoản sử dụng</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12">
+                            <div class="widget-collumn">
+                                <h3>HỆ THỐNG TỔNG ĐÀI MIỄN PHÍ:
+                                    (Làm việc từ 8:00 - 20:00)</h3>
+                                <a href="#" class="widget-link widget-link-1">Tổng đài mua hàng: 1800 6975</a>
+                                <a href="#" class="widget-link widget-link-2">Tổng đài hỗ trợ khách hàng: 1800 6173</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12">
+                            <div class="widget-collumn">
+                                <h3>THÔNG TIN</h3>
+                                <a href="#" class="widget-link widget-link-1">Theo dõi đơn hàng</a>
+                                <a href="#" class="widget-link widget-link-2">Mua & giao nhận hàng</a>
+                                <a href="#" class="widget-link widget-link-3">Quy định & hình thức thanh toán</a>
+                                <a href="#" class="widget-link widget-link-4">Bảo hành & bảo trì</a>
+                                <a href="#" class="widget-link widget-link-5">Đổi trả & hoàn tiền</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 c-12">
+                            <div class="widget-collumn">
+                                <div class="widget-collumn-sub">
+                                    <h3>ĐƠN VỊ VẬN CHUYỂN</h3>
+                                    <div class="widget-transport">
+                                        <img src="https://gstatic.gearvn.com/2020/01/giao-hang-nhanh.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/giao-hang-ems.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/giao-hang-chanh-xe.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/giao-hang-gearvn.png" alt="" class="widget-transport-img">
+                                    </div>
+                                </div>
+                                <div class="widget-collumn-sub">
+                                    <h3>CÁCH THỨC THANH TOÁN</h3>
+                                    <div class="widget-transport">
+                                        <img src="https://gstatic.gearvn.com/2020/01/internet.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/jcb.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/Mastercard.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/money-face.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/tra-gop.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/VISA.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/zalopay@3x.png" alt="" class="widget-transport-img">
+                                        <img src="https://gstatic.gearvn.com/2020/01/momooo.png" alt="" class="widget-transport-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="bottom-widget">
+                    <div class="row">
+                        <div class="col l-5 m-4 c-12">
+                            <div class="widget-collumn">
+                                <div class="bottom-widget-logo">
+                                    <a href="#">
+                                        <img src="https://gstatic.gearvn.com/2021/04/Logo-GEARVN_pc-300x70-1.png" alt="">
+                                    </a>
+                                </div>
+                                <div class="bottom-widget-content">
+                                    <h3 class="hide-pc-low">CÔNG TY TNHH THƯƠNG MẠI GEARVN</h3>
+                                    <p>GearVN là doanh nghiệp chuyên cung cấp thiết bị, 
+                                        giải pháp về máy tính, thiết bị chơi game, 
+                                        thiết bị công nghệ cao cấp hàng đầu Việt Nam.
+                                    </p>
+                                </div>
+                                <div class="bottom-widget-certificate">
+                                    <a href="#">
+                                        <img src="https://gstatic.gearvn.com/2020/01/20150827110756-dathongbao.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4 m-4 c-12">
+                            <div class="widget-collumn">
+                                <h2>HỆ THỐNG SHOWROOM</h2>
+                                <h2>SHOWROOM HCM (Làm việc từ 8:00 - 20:00)</h2>
+                                <ul class="add-showroom">
+                                    <li>Địa chỉ 1: 78-80-82 Hoàng Hoa Thám, Phường 12, Quận Tân Bình.</li>
+                                    <li>Địa chỉ 2: 905 Kha Vạn Cân, Phường Linh Tây, Thành phố Thủ Đức.</li>
+                                </ul>
+
+                                <h2>SHOWROOM HN (Làm việc từ 9:00 - 19:00)</h2>
+                                <ul class="add-showroom">
+                                    <li>Địa chỉ : 37 Ngõ 121 Thái Hà, Phường Trung Liệt, Quận Đống Đa.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-4 c-0">
+                            <div class="widget-collumn">
+                                <div class="widget-collumn-sub">
+                                    <h2>TIN TỨC CÔNG NGHỆ</h2>
+                                    <a href="#">
+                                        <img src="https://gstatic.gearvn.com/2021/07/GVN360-04.png" alt="" class="gearvn360-img">
+                                    </a>
+                                </div>
+                                <div class="widget-collumn-sub">
+                                    <h2>KẾT NỐI VỚI CHÚNG TÔI</h2>
+                                    <div class="widget-social">
+                                        <a href="#">
+                                            <img src="https://gstatic.gearvn.com/2020/01/facebook.png" alt="" class="widget-social-img">
+                                        </a>
+                                        <a href="#">
+                                            <img src="https://gstatic.gearvn.com/2020/01/group.png" alt="" class="widget-social-img">
+                                        </a>
+                                        <a href="#">
+                                            <img src="https://gstatic.gearvn.com/2020/01/youtube.png" alt="" class="widget-social-img">
+                                        </a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <h3>Copyright © 2022 by Le Tu</h3>
+                </div>
+            </div>
+        </footer>
+
+        <!-- <div class="grid">
+            <div class="mobile-product-category">
+                <div class="row">
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                    <div class="col l-0 m-3 c-4">
+                        <div class="mobile-category-item">
+                            <i class="mobile-category-icon fas fa-laptop"></i>
+                            <span>Laptop Gaming</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+</body>
+</html>
